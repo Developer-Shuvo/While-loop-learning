@@ -45,6 +45,11 @@
 // }
 
 
-for (let i = 1; i <= 20; i++) {
-    console.log(i);
+// for (let i = 1; i <= 20; i++) {
+//     console.log(i);
+// }
+
+
+for (let i = 1; i <= 50; i = i + 2) {
+    console.log('The odd number is;', i, 'among 1 to 50')
 }
