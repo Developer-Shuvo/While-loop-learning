@@ -24,16 +24,37 @@
 
 // ***************************************************
 
-let money = [50, 150, 3000, 900];
-let shopping = ['shoes', 'slide', 'panjabi'];
-let location = ['Dhaka', 'Chittagong', 'Khulna'];
+// let money = [50, 150, 3000, 900];
+// let shopping = ['shoes', 'slide', 'panjabi'];
+// let location = ['Dhaka', 'Chittagong', 'Khulna'];
 
-console.log(money[3]);
-console.log(shopping[2]);
+// console.log(money[3]);
+// console.log(shopping[2]);
 
-shopping[1] = 'sharee';
-console.log(shopping);
+// shopping[1] = 'sharee';
+// console.log(shopping);
 
 
-money[3] = 1111;
-console.log(money);
+// money[3] = 1111;
+// console.log(money);
+
+
+
+// ***************slice***************************
+// let name = ['Shamim', 'Sakib', 'Rafiq', 'Rifat'];
+
+// let partByPart = name.slice(1, 3);
+// console.log(partByPart);
+
+
+
+
+// ************************split********************************
+
+// let address = 'Dhaka, Chittagong, Khulna, Bogura';
+// console.log(address.split(' , '))
+
+
+
+let topic = 'drug addiction is injurious to health';
+console.log(topic.split(' '));
