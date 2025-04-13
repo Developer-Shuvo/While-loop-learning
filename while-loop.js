@@ -59,8 +59,42 @@
 //     console.log('The odd number is:', i, 'among 5 to 30')
 // }
 
-for (let i = 33; i <= 100; i++) {
-    if (i % 2 === 0) {
-        console.log('The even number is:', i, 'among 33 to 100');
-    }
+// for (let i = 33; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         console.log('The even number is:', i, 'among 33 to 100');
+//     }
+// }
+
+
+
+
+// let sum = 0; // Declare the variable 'sum'
+
+// for (let i = 12; i <= 60; i++) {
+//     sum = sum + i;
+//     console.log(i);
+// }
+
+// console.log('The sum of all numbers from 12 to 60 is:', sum);
+
+
+
+
+// let sum = 0;
+
+// for (let i = 1; i <= 40; i++) {
+//     sum = sum + i;
+
+// }
+// console.log('The sum of all numbers form 1 t0 40 is:', sum);
+
+
+
+// ***************The sum of all numbers from 1 to 100**************************
+let sum = 0;
+
+for (let i = 1; i <= 100; i++) {
+    sum += i; // same as sum = sum + i
 }
+
+console.log('The sum of all numbers from 1 to 100 is:', sum);
