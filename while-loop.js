@@ -91,10 +91,10 @@
 
 
 // ***************The sum of all numbers from 1 to 100**************************
-let sum = 0;
+// let sum = 0;
 
-for (let i = 1; i <= 100; i++) {
-    sum += i; // same as sum = sum + i
-}
+// for (let i = 1; i <= 100; i++) {
+//     sum += i; // same as sum = sum + i
+// }
 
-console.log('The sum of all numbers from 1 to 100 is:', sum);
+// console.log('The sum of all numbers from 1 to 100 is:', sum);
