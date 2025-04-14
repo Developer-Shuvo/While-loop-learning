@@ -55,6 +55,18 @@
 // console.log(address.split(' , '))
 
 
+// ************************split********************************
 
-let topic = 'drug addiction is injurious to health';
-console.log(topic.split(' '));
+// let topic = 'drug addiction is injurious to health';
+// console.log(topic.split(' '));
+
+
+
+// Function to add two numbers
+function addNumbers(a, b) {
+    return a + b;
+}
+
+// Example usage
+let result = addNumbers(5, 10);
+console.log("The sum is:", result);
