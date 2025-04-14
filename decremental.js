@@ -63,10 +63,18 @@
 
 
 // Function to add two numbers
-function addNumbers(a, b) {
-    return a + b;
+// function addNumbers(a, b) {
+//     return a + b;
+// }
+
+// // Example usage
+// let result = addNumbers(5, 10);
+// console.log("The sum is:", result);
+
+
+
+function gan(paro ? ) {
+    console.log(paro);
 }
 
-// Example usage
-let result = addNumbers(5, 10);
-console.log("The sum is:", result);
+gan('Parina');
