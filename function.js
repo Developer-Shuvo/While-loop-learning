@@ -34,13 +34,28 @@
 
 b // // *************************Borgo ber kora*********************************
 
-function square(number) {
-    console.log('The question number is :', number)
-    let borgo = number * number;
-    console.log('The answer number is :', borgo)
+// function square(number) {
+//     console.log('The question number is :', number)
+//     let borgo = number * number;
+//     console.log('The answer number is :', borgo)
+// }
+
+// square(5);
+// square(35);
+// square(100);
+// square(3000);
+
+
+
+
+// // **********************************************************
+
+
+function friendship(name1, name2) {
+    console.log('They are good friends:', name1, 'and', name2);
+    let friendship = `[name1] & [name2]`;
+    console.log('Friendship:', friendship);
 }
 
-square(5);
-square(35);
-square(100);
-square(3000);
+friendship('Shameem' ['']
+    'Saqib');
