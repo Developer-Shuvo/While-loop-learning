@@ -74,17 +74,44 @@
 // difference(fatherAge, myAge);
 
 
-
-function isEven(number) {
-
-    if (number % 2 === 0) {
-        console.log("this is an even number");
-        return true;
-    } else {
-        console.log("this is an odd number");
-        return false;
-    }
+function difference(num1, num2) {
+    let differenceValue = num1 - num2;
+    console.log(num1, num2, 'The age difference is:', differenceValue);
 }
 
-console.log(isEven(10));
-console.log(isEven(13));
+const fatherAge = 45;
+const myAge = 22;
+
+difference(fatherAge, myAge);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function isEven(number) {
+
+//     if (number % 2 === 0) {
+//         console.log("this is an even number");
+//         return true;
+//     } else {
+//         console.log("this is an odd number");
+//         return false;
+//     }
+// }
+
+// console.log(isEven(10));
+// console.log(isEven(13));
