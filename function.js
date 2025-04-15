@@ -51,11 +51,24 @@ b // // *************************Borgo ber kora*********************************
 // // **********************************************************
 
 
-function friendship(name1, name2) {
-    console.log('They are good friends:', name1, 'and', name2);
-    let friendship = `[name1] & [name2]`;
-    console.log('Friendship:', friendship);
+// function friendship(name1, name2) {
+//     console.log('They are good friends:', name1, 'and', name2);
+//     console.log('Friendship:', friendship);
+// }
+
+// friendship('Shameem' ['']
+//     'Saqib');let friendship = `[name1] & [name2]`;
+
+
+
+// // **********************My age and Father age difference************************************
+
+function difference(num1, num2) {
+    let tofat = num1 - num2;
+    console.log(num1, num2, 'difference is:', tofat);
 }
 
-friendship('Shameem' ['']
-    'Saqib');
+let fatherAge = 45;
+let myAge = 22;
+
+tofat(fatherAge, myAge);
