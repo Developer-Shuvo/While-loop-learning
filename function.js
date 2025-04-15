@@ -32,7 +32,7 @@
 
 
 
-b // // *************************Borgo ber kora*********************************
+// // *************************Borgo ber kora*********************************
 
 // function square(number) {
 //     console.log('The question number is :', number)
@@ -63,12 +63,28 @@ b // // *************************Borgo ber kora*********************************
 
 // // **********************My age and Father age difference************************************
 
-function difference(num1, num2) {
-    let tofat = num1 - num2;
-    console.log(num1, num2, 'difference is:', tofat);
+// function difference(num1, num2) {
+//     let diff = num1 - num2;
+//     console.log(num1, num2, 'difference is:', diff);
+// }
+
+// let fatherAge = 45;
+// let myAge = 22;
+
+// difference(fatherAge, myAge);
+
+
+
+function isEven(number) {
+
+    if (number % 2 === 0) {
+        console.log("this is an even number");
+        return true;
+    } else {
+        console.log("this is an odd number");
+        return false;
+    }
 }
 
-let fatherAge = 45;
-let myAge = 22;
-
-tofat(fatherAge, myAge);
+console.log(isEven(10));
+console.log(isEven(13));
