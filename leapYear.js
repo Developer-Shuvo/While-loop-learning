@@ -1,15 +1,36 @@
 // *******************Leap year find out*******************
 
+// function isLeapYear(year) {
+
+//     if (year % 4 === 0) {
+//         console.log(year + ' is a leap year');
+//         return true;
+//     } else {
+//         console.log(year + ' is not a leap year');
+//         return false;
+//     }
+// }
+
+// let thisYear = isLeapYear(2027);
+// console.log('Is this year a leap year?', thisYear);
+
+
+
+
+// *******************Leap year find out/2*******************
+
+
 function isLeapYear(year) {
 
-    if (year % 4 === 0) {
-        console.log(year + ' is a leap year');
+    if (year % 100 !== 0 && year % 4 === 0) {
+        console.log(year + [" "], "This is a leap year")
         return true;
     } else {
-        console.log(year + ' is not a leap year');
+        console.log(year + [" "], "This is not a leap year")
         return false;
     }
 }
 
-let thisYear = isLeapYear(2027);
-console.log('Is this year a leap year?', thisYear);
+
+let aiBocor = isLeapYear(2052);
+console.log("Is this year a leap year?", aiBocor);
