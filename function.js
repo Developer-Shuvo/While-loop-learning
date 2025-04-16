@@ -74,15 +74,43 @@
 // difference(fatherAge, myAge);
 
 
-function difference(num1, num2) {
-    let differenceValue = num1 - num2;
-    console.log(num1, num2, 'The age difference is:', differenceValue);
+// function difference(num1, num2) {
+//     let differenceValue = num1 - num2;
+//     console.log(num1, num2, 'The age difference is:', differenceValue);
+// }
+
+// const fatherAge = 45;
+// const myAge = 22;
+
+// difference(fatherAge, myAge);
+
+
+// function multiply(num1, num2, num3, num4) {
+//     let result = num1 * num2 * num3 * num4;
+//     console.log('The multiplication of the numbers is:', result);
+
+//     return result;
+// }
+
+// let number1 = 2;
+// let number2 = 2;
+// let number3 = 2;
+// let number4 = 2;
+
+// multiply(number1, number2, number3, number4);
+
+
+
+// ***************inch to feet*******************
+
+function inchToFeet(inch) {
+    let feet = inch / 12;
+    return feet;
 }
 
-const fatherAge = 45;
-const myAge = 22;
-
-difference(fatherAge, myAge);
+let inches = 1200;
+let resultInFeet = inchToFeet(inches);
+console.log('The result in feet is:', resultInFeet);
 
 
 
