@@ -37,17 +37,27 @@
 
 
 
-function isLeapYear(year) {
+// function isLeapYear(year) {
 
-    if (year % 4 === 0 && year % 100 !== 0) {
-        console.log(year + " This is a leap year")
-        return true;
-    } else {
-        console.log(year + " This is not a leap year")
-    }
-}
+//     if (year % 4 === 0 && year % 100 !== 0) {
+//         console.log(year + " This is a leap year")
+//         return true;
+//     } else {
+//         console.log(year + " This is not a leap year")
+//     }
+// }
 
 
-let leapYearKi = isLeapYear(2024);
-let leapYearki2 = isLeapYear(2025)
-console.log("Is this year a leap year?", leapYearKi);
+// let leapYearKi = isLeapYear(2024);
+// let leapYearki2 = isLeapYear(2025)
+// console.log("Is this year a leap year?", leapYearKi);
+
+
+let price = 2990;
+let discount = 20;
+
+// discount = 20%;
+discountPrice = price * discount / 100;
+payablePrice = price - discountPrice;
+console.log("Discount Price is: " + discountPrice);
+console.log('Payable Price is :' + payablePrice);
