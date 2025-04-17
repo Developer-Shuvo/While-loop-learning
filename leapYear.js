@@ -53,11 +53,23 @@
 // console.log("Is this year a leap year?", leapYearKi);
 
 
-let price = 2990;
-let discount = 20;
+// let price = 2990;
+// let discount = 20;
 
-// discount = 20%;
-discountPrice = price * discount / 100;
-payablePrice = price - discountPrice;
-console.log("Discount Price is: " + discountPrice);
-console.log('Payable Price is :' + payablePrice);
+// // discount = 20%;
+// discountPrice = price * discount / 100;
+// payablePrice = price - discountPrice;
+// console.log("Discount Price is: " + discountPrice);
+// console.log('Payable Price is :' + payablePrice);
+
+
+
+let age = 20;
+if (age >= 18) {
+    console.log("You can vote");
+
+} else {
+    console.log("You can not vote");
+}
+
+console.log("You can vote if you are 18 or older");
