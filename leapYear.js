@@ -93,4 +93,6 @@ if (age >= 18) {
 
 } else if (age < 18 && price > 3000) {
     console.log("You can not buy this product")
+} else if (age >= 40) {
+    console.log("He can get 40% discount")
 }
