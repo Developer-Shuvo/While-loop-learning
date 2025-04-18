@@ -76,10 +76,21 @@
 
 
 
-// **
-// ** ** ** ** ** print 100 times i love web development using
-// for loop ** ** ** ** ** **
 
-for (let i = 0; i < 100; i++) {
-    console.log("I love web development");
+// ** ** print 100 times i love web development using for loop ** ** ** ** ** **
+
+// for (let i = 0; i < 100; i++) {
+//     console.log("I love web development");
+// }
+
+
+
+let price = 5000;
+let age = 40;
+
+if (age >= 18) {
+    console.log("You can buy this product")
+
+} else if (age < 18 && price > 3000) {
+    console.log("You can not buy this product")
 }
