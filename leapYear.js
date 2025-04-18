@@ -64,12 +64,22 @@
 
 
 
-let age = 20;
-if (age >= 18) {
-    console.log("You can vote");
+// let age = 20;
+// if (age >= 18) {
+//     console.log("You can vote");
 
-} else {
-    console.log("You can not vote");
+// } else {
+//     console.log("You can not vote");
+// }
+
+// console.log("You can vote if you are 18 or older");
+
+
+
+// **
+// ** ** ** ** ** print 100 times i love web development using
+// for loop ** ** ** ** ** **
+
+for (let i = 0; i < 100; i++) {
+    console.log("I love web development");
 }
-
-console.log("You can vote if you are 18 or older");
