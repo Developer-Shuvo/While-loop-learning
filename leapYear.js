@@ -85,14 +85,14 @@
 
 
 
-let price = 5000;
-let age = 40;
+// let price = 5000;
+// let age = 40;
 
-if (age >= 18) {
-    console.log("You can buy this product")
+// if (age >= 18) {
+//     console.log("You can buy this product")
 
-} else if (age < 18 && price > 3000) {
-    console.log("You can not buy this product")
-} else if (age >= 40) {
-    console.log("He can get 40% discount")
-}
+// } else if (age < 18 && price > 3000) {
+//     console.log("You can not buy this product")
+// } else if (age >= 40) {
+//     console.log("He can get 40% discount")
+// }
