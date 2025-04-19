@@ -23,9 +23,6 @@ function evenAverage(numbers) {
 
     return avg;
 
-    return avg;
-
-
 }
 
 let numbers = [42, 23, 6, 87, 56, 98, 90, 65, 32, 15, 33, 54, 87, 99, 100];
