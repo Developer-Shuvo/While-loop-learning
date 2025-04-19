@@ -15,5 +15,30 @@ function doubleCheck(name) {
     return nameHolder;
 }
 
-let uniqueList = doubleCheck(moneyAmount);;
+let uniqueList = doubleCheck(moneyAmount);
 console.log(uniqueList);
+
+
+
+// ***********************************************************************
+
+let location = ['Dhaka', 'Dhaka', 'Chittagong', 'Chittagong', 'Khulna', 'Rajshahi', 'Khulna', 'Barisal', 'Sylhet', 'Rangpur', 'Sylhet',
+    'Mymensingh'
+];
+
+function doubleCheckLocation(location) {
+    let blank = [];
+    for (let item of location) {
+        if (blank.includes(item) === false) {
+            blank.push(item);
+        }
+    }
+    return blank;
+}
+
+
+
+
+
+let uniqueLocation = doubleCheckLocation(location);
+console.log(uniqueLocation);
