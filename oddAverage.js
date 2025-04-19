@@ -28,41 +28,39 @@
 // console.log("Average of odd numbers is:", avg);
 
 
+// ****************find out the average of odd numbers******************
 
-function oddAverage(numbers) {
-    let odds = []; // Define the odds array
+// function oddAverage(numbers) {
+//     let odds = []; // Define the odds array
 
-    for (let number of numbers) {
+//     for (let number of numbers) {
 
-        if (number % 2 === 1) {
-            console.log('This is an odd number:=', number);
-            odds.push(number);
-        }
+//         if (number % 2 === 1) {
+//             console.log('This is an odd number:=', number);
+//             odds.push(number);
+//         }
 
-    }
+//     }
 
-    // console.log('listed odd numbers are :=', odds);
-    let sum = 0;
-    for (let number of odds) {
-        sum = sum + number;
-    }
+//     // console.log('listed odd numbers are :=', odds);
+//     let sum = 0;
+//     for (let number of odds) {
+//         sum = sum + number;
+//     }
 
-    let count = odds.length;
-    console.log('length of this array is :=', count);
-    console.log('Sum of odd numbers is :=', sum);
-
-
-    // Calculate the average of odd numbers
-    let avg = sum / count;
-    console.log('Average of odd numbers is :=', avg);
-    return avg;
+//     let count = odds.length;
+//     console.log('length of this array is :=', count);
+//     console.log('Sum of odd numbers is :=', sum);
 
 
+//     // Calculate the average of odd numbers
+//     let avg = sum / count;
+//     console.log('Average of odd numbers is :=', avg);
+//     return avg;
 
 
+// }
 
-}
-
-let numbers = [42, 23, 6, 87, 56, 98, 90, 65, 32, 15];
-let avg = oddAverage(numbers);
-console.log("Average of the odd numbers is :=", avg);
+// let numbers = [42, 23, 6, 87, 56, 98, 90, 65, 32, 15];
+// let avg = oddAverage(numbers);
+// console.log("Average of the odd numbers is :=", avg);
